@@ -1,47 +1,45 @@
 Kafka Bus
 Connectors
 
-
-
 FeatureEngineering Operators
 	StreamBased support
 
-TrainOperators
-PredictOperators
-DeployOperators
+- TrainOperators
+- PredictOperators
+- DeployOperators
 
-Scalars,
-Transformers
-FeatureEnrichers 
-	Datetime
-	NLP
+- Scalars,
+- Transformers
+- FeatureEnrichers 
+	- Datetime
+	- NLP
 
-DataAnnotators
-	Snorkel
-	TimeseriesAnnotator
+- DataAnnotators
+- Snorkel
+- TimeseriesAnnotator
 
 
-To be included in DeployOperators !???
+### To be included in DeployOperators !???
 1.scalars can  be included
 2.Transformers can also be included
 
-Construct a Pipeline and Deploy 
-Deploy a SklearnPipeline using DeployOperators
+## Construct a Pipeline and Deploy 
+### Deploy a SklearnPipeline using DeployOperators
 
-PredictOperators can be used in reqular ETL jobs
-SubDagOperator which trains multiple models in parallel in Dask background
-CombineOperator which uses combines result of multiple models (Stacking and produces the prediction)
-	Which takes Mlflow UUID and runs the specific model
+- PredictOperators can be used in reqular ETL jobs
+- SubDagOperator which trains multiple models in parallel in Dask background
+- CombineOperator which uses combines result of multiple models (Stacking and produces the prediction)
+	- Which takes Mlflow UUID and runs the specific model
 
-DeployOperators
-	SparkDeployer
-	DockerDeployer (clipper.ai)
-	TensorflowServingOperator for TensorflowModels
+## DeployOperators
+	- SparkDeployer
+	- DockerDeployer (clipper.ai)
+	- TensorflowServingOperator for TensorflowModels
 	
-AutoMLOperator
+## AutoMLOperator
 	Using nnictl
 	
-Operator API
+## Operator API
 		EachOperator should take the neccessary configs from the airflow variables
 			Handle Naming Conventions for eachoperator
 		Each Operator should be able to speak with kafka ,read write its own data
@@ -83,32 +81,32 @@ Operator API
 			
 
 	
-Frameworks To be used under Train and Predict Operators are :
-	Sklearn
-	Catboost
-	H20
-	xgboost
-	Lightgbm
+### Frameworks To be used under Train and Predict Operators are :
+	- Sklearn
+	- Catboost
+	- H20
+	- xgboost
+	- Lightgbm
 		
-Frameworks To be used under FeatureEngineering Operators :
-	Sklearn
-	Creme
-Frameworks To be used under AutoMLOperators are :
-	nnictl
-	ALLSklearn
-	To be considered using this	
-		H20 AutoML
-		Tpot
-		MLJar
-		Automl
+### Frameworks To be used under FeatureEngineering Operators :
+	- Sklearn
+	- Creme
+### Frameworks To be used under AutoMLOperators are :
+	- nnictl
+	- ALLSklearn
+	#### To be considered using this	
+		- H20 AutoML
+		- Tpot
+		- MLJar
+		- Automl
 			
-Frameworks To be used under DeployOperators:
-	SparkDeployer both batch and RestAPI
-	DockerDeployer
+### Frameworks To be used under DeployOperators:
+	- SparkDeployer both batch and RestAPI
+	- DockerDeployer
 	
 
-ValidationCheck
-	Check the inputs at every operator
+### ValidationCheck
+	- Check the inputs at every operator
 	
 
 	
