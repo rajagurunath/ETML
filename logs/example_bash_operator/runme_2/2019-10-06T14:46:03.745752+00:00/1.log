@@ -1,0 +1,27 @@
+[2019-10-06 14:47:26,805] {taskinstance.py:616} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_2 2019-10-06T14:46:03.745752+00:00 [queued]>
+[2019-10-06 14:47:26,811] {taskinstance.py:616} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_2 2019-10-06T14:46:03.745752+00:00 [queued]>
+[2019-10-06 14:47:26,812] {taskinstance.py:834} INFO - 
+--------------------------------------------------------------------------------
+[2019-10-06 14:47:26,812] {taskinstance.py:835} INFO - Starting attempt 1 of 1
+[2019-10-06 14:47:26,812] {taskinstance.py:836} INFO - 
+--------------------------------------------------------------------------------
+[2019-10-06 14:47:26,896] {taskinstance.py:855} INFO - Executing <Task(BashOperator): runme_2> on 2019-10-06T14:46:03.745752+00:00
+[2019-10-06 14:47:26,896] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'example_bash_operator', 'runme_2', '2019-10-06T14:46:03.745752+00:00', '--job_id', '8', '--pool', 'default_pool', '--raw', '-sd', '/workspace/.pip-modules/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg_path', '/tmp/tmpd43q0dhy']
+[2019-10-06 14:47:27,545] {base_task_runner.py:115} INFO - Job 8: Subtask runme_2 /workspace/.pip-modules/lib/python3.7/site-packages/airflow/configuration.py:614: DeprecationWarning: You have two airflow.cfg files: /home/gitpod/airflow/airflow.cfg and /workspace/ETML/airflow/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /workspace/ETML/airflow/airflow.cfg, and you should remove the other file
+[2019-10-06 14:47:27,545] {base_task_runner.py:115} INFO - Job 8: Subtask runme_2   category=DeprecationWarning,
+[2019-10-06 14:47:27,865] {base_task_runner.py:115} INFO - Job 8: Subtask runme_2 [2019-10-06 14:47:27,864] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 14:47:28,398] {base_task_runner.py:115} INFO - Job 8: Subtask runme_2 [2019-10-06 14:47:28,397] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/.pip-modules/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2019-10-06 14:47:28,416] {base_task_runner.py:115} INFO - Job 8: Subtask runme_2 [2019-10-06 14:47:28,416] {cli.py:516} INFO - Running <TaskInstance: example_bash_operator.runme_2 2019-10-06T14:46:03.745752+00:00 [running]> on host ws-1920c115-851f-45d5-9b02-46ae8b08c534
+[2019-10-06 14:47:28,427] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2019-10-06 14:47:28,428] {bash_operator.py:91} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=runme_2
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-06T14:46:03.745752+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-10-06T14:46:03.745752+00:00
+[2019-10-06 14:47:28,428] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp9um4xq9m/runme_2yg6zczu3
+[2019-10-06 14:47:28,429] {bash_operator.py:115} INFO - Running command: echo "example_bash_operator__runme_2__20191006" && sleep 1
+[2019-10-06 14:47:28,441] {bash_operator.py:124} INFO - Output:
+[2019-10-06 14:47:28,442] {bash_operator.py:128} INFO - example_bash_operator__runme_2__20191006
+[2019-10-06 14:47:29,446] {bash_operator.py:132} INFO - Command exited with return code 0
+[2019-10-06 14:47:31,803] {logging_mixin.py:95} INFO - [[34m2019-10-06 14:47:31,802[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m

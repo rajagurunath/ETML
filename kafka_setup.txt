@@ -1,0 +1,10 @@
+curl "https://www-eu.apache.org/dist/kafka/2.3.0/kafka_2.12-2.3.0.tgz" -o kafka.tgz
+
+tar -xzf kafka.tgz
+cd kafka_2.12-2.3.0
+#zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+#server
+bin/kafka-server-start.sh config/server.properties
+
