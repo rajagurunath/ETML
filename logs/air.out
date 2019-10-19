@@ -1,0 +1,106 @@
+[2019-10-06 17:58:11,640] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:11,647] {__init__.py:51} INFO - Using executor SequentialExecutor
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2019-10-06 17:58:12,273] {scheduler_job.py:1288} INFO - Starting the scheduler
+[2019-10-06 17:58:12,273] {scheduler_job.py:1296} INFO - Running execute loop for -1 seconds
+[2019-10-06 17:58:12,274] {scheduler_job.py:1297} INFO - Processing each file at most -1 times
+[2019-10-06 17:58:12,274] {scheduler_job.py:1300} INFO - Searching for files in /workspace/ETML/airflow/dags
+[2019-10-06 17:58:12,279] {scheduler_job.py:1302} INFO - There are 20 files in /workspace/ETML/airflow/dags
+[2019-10-06 17:58:12,280] {scheduler_job.py:1349} INFO - Resetting orphaned tasks for active dag runs
+[2019-10-06 17:58:12,296] {dag_processing.py:543} INFO - Launched DagFileProcessorManager with pid: 3281
+[2019-10-06 17:58:12,302] {settings.py:54} INFO - Configured default timezone <Timezone [UTC]>
+[2019-10-06 17:58:12,318] {dag_processing.py:746} ERROR - Cannot use more than 1 thread when using sqlite. Setting parallelism to 1
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2019-10-06 17:58:12,520] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2019-10-06 17:58:13,909] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:13,910] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:14,015] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:14,173] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:14,533] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 17:58:14,609] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 17:58:14,648] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 17:58:14,651] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+127.0.0.1 - - [06/Oct/2019:17:58:21 +0000] "GET / HTTP/1.1" 302 221 "https://e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /admin/ HTTP/1.1" 200 116980 "https://e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /static/pin_100.png HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /admin/admin/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /admin/admin/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /admin/admin/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /admin/admin/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:22 +0000] "GET /static/d3.v3.min.js HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:23 +0000] "GET /static/jqClock.min.js HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:23 +0000] "GET /static/bootstrap-toggle.min.js HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:23 +0000] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:23 +0000] "GET /admin/admin/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/admin/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:26 +0000] "GET /admin/airflow/blocked HTTP/1.1" 200 117 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:26 +0000] "GET /admin/airflow/dag_stats HTTP/1.1" 200 9486 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:17:58:26 +0000] "GET /admin/airflow/task_stats HTTP/1.1" 200 30511 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 17:58:46,119] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:58:46,542] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 17:59:17,552] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:59:18,012] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 17:59:49,026] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 17:59:49,622] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+127.0.0.1 - - [06/Oct/2019:18:00:10 +0000] "GET /admin/variable/ HTTP/1.1" 200 18952 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:00:11 +0000] "GET /admin/admin/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/variable/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:00:11 +0000] "GET /admin/admin/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/variable/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:00:14 +0000] "GET /admin/queryview/ HTTP/1.1" 200 3564 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/variable/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:00:15 +0000] "GET /static/ace.js HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/queryview/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 18:00:20,595] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:00:21,167] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:00:31,952] {font_manager.py:1349} INFO - generated new fontManager
+[2019-10-06 18:00:32,092] {base_hook.py:84} INFO - Using connection to: id: sqlite_default. Host: /workspace/ETML/data/titanic.db, Port: None, Schema: None, Login: None, Password: None, extra: {}
+127.0.0.1 - - [06/Oct/2019:18:00:32 +0000] "POST /admin/queryview/ HTTP/1.1" 200 4291 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/queryview/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 18:00:52,032] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:00:52,506] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:01:23,487] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:01:23,932] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:01:54,924] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:01:56,482] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:02:27,513] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:02:27,964] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+127.0.0.1 - - [06/Oct/2019:18:02:44 +0000] "GET /admin/ HTTP/1.1" 200 116980 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/queryview/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:02:45 +0000] "GET /admin/airflow/blocked HTTP/1.1" 200 117 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:02:45 +0000] "GET /admin/airflow/dag_stats HTTP/1.1" 200 9486 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:02:45 +0000] "GET /admin/airflow/task_stats HTTP/1.1" 200 30511 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 18:02:59,069] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:02:59,507] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:03:30,516] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:03:30,947] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:04:01,944] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:04:02,369] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:04:33,373] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:04:33,800] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:05:04,817] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:05:05,273] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:05:36,261] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:05:36,844] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:06:07,709] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:06:08,137] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:06:39,159] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:06:39,603] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+127.0.0.1 - - [06/Oct/2019:18:06:45 +0000] "GET /admin/queryview/ HTTP/1.1" 200 3562 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 18:07:10,600] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:07:11,017] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:07:42,053] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:07:42,470] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+127.0.0.1 - - [06/Oct/2019:18:08:11 +0000] "GET /admin/queryview/ HTTP/1.1" 200 3563 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+127.0.0.1 - - [06/Oct/2019:18:08:11 +0000] "GET /static/pin_30.png HTTP/1.1" 200 0 "https://8080-e437ef38-b64e-4782-af66-6f4cd90adc11.ws-ap0.gitpod.io/admin/queryview/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+[2019-10-06 18:08:13,505] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:08:13,958] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
+[2019-10-06 18:08:44,957] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-10-06 18:08:45,414] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/ETML/airflow/dags
