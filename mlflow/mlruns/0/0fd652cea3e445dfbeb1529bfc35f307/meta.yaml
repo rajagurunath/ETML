@@ -1,0 +1,15 @@
+artifact_uri: file:///workspace/ETML/mlflow/mlruns/0/0fd652cea3e445dfbeb1529bfc35f307/artifacts
+end_time: 1579676539496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 0fd652cea3e445dfbeb1529bfc35f307
+run_uuid: 0fd652cea3e445dfbeb1529bfc35f307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1579676539356
+status: 3
+tags: []
+user_id: gitpod

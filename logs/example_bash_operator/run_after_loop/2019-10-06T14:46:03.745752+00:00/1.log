@@ -1,0 +1,27 @@
+[2020-01-22 07:17:46,241] {taskinstance.py:616} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2019-10-06T14:46:03.745752+00:00 [queued]>
+[2020-01-22 07:17:46,249] {taskinstance.py:616} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2019-10-06T14:46:03.745752+00:00 [queued]>
+[2020-01-22 07:17:46,249] {taskinstance.py:834} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-22 07:17:46,249] {taskinstance.py:835} INFO - Starting attempt 1 of 1
+[2020-01-22 07:17:46,250] {taskinstance.py:836} INFO - 
+--------------------------------------------------------------------------------
+[2020-01-22 07:17:46,280] {taskinstance.py:855} INFO - Executing <Task(BashOperator): run_after_loop> on 2019-10-06T14:46:03.745752+00:00
+[2020-01-22 07:17:46,280] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'example_bash_operator', 'run_after_loop', '2019-10-06T14:46:03.745752+00:00', '--job_id', '19', '--pool', 'default_pool', '--raw', '-sd', '/workspace/.pip-modules/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg_path', '/tmp/tmp7undyexq']
+[2020-01-22 07:17:46,872] {base_task_runner.py:115} INFO - Job 19: Subtask run_after_loop /workspace/.pip-modules/lib/python3.7/site-packages/airflow/configuration.py:614: DeprecationWarning: You have two airflow.cfg files: /home/gitpod/airflow/airflow.cfg and /workspace/ETML/airflow/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /workspace/ETML/airflow/airflow.cfg, and you should remove the other file
+[2020-01-22 07:17:46,872] {base_task_runner.py:115} INFO - Job 19: Subtask run_after_loop   category=DeprecationWarning,
+[2020-01-22 07:17:47,203] {base_task_runner.py:115} INFO - Job 19: Subtask run_after_loop [2020-01-22 07:17:47,202] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-01-22 07:17:47,701] {base_task_runner.py:115} INFO - Job 19: Subtask run_after_loop [2020-01-22 07:17:47,700] {dagbag.py:90} INFO - Filling up the DagBag from /workspace/.pip-modules/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2020-01-22 07:17:47,720] {base_task_runner.py:115} INFO - Job 19: Subtask run_after_loop [2020-01-22 07:17:47,719] {cli.py:516} INFO - Running <TaskInstance: example_bash_operator.run_after_loop 2019-10-06T14:46:03.745752+00:00 [running]> on host ws-a5cf75c2-c7be-4f5f-8c78-806e01cfdc8f
+[2020-01-22 07:17:47,731] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2020-01-22 07:17:47,732] {bash_operator.py:91} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=run_after_loop
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-06T14:46:03.745752+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-10-06T14:46:03.745752+00:00
+[2020-01-22 07:17:47,732] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmplqhewvij/run_after_loopx3593c4w
+[2020-01-22 07:17:47,732] {bash_operator.py:115} INFO - Running command: echo 1
+[2020-01-22 07:17:47,741] {bash_operator.py:124} INFO - Output:
+[2020-01-22 07:17:47,742] {bash_operator.py:128} INFO - 1
+[2020-01-22 07:17:47,742] {bash_operator.py:132} INFO - Command exited with return code 0
+[2020-01-22 07:17:51,244] {logging_mixin.py:95} INFO - [[34m2020-01-22 07:17:51,244[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m
