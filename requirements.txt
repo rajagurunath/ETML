@@ -58,7 +58,7 @@ marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.17.2
 matplotlib==3.1.1
 mlflow==1.2.0
-numpy==1.17.1
+numpy==1.22.0
 ordereddict==1.1
 pandas==0.25.1
 pendulum==1.4.4
